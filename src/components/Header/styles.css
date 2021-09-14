@@ -1,0 +1,39 @@
+.header-container {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.header-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.nav-container {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.nav-link {
+    color: var(--color-white-primary);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.nav-link:hover {
+    color: var(--color-white-secundary);
+    transform: 2s;
+    cursor: pointer;
+}
+
+@media (max-width:768px) {
+    .text-link {
+        display: none;
+    }
+}
