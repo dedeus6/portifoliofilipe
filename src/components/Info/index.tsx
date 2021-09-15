@@ -1,5 +1,5 @@
-import { FaSmile, FaMailBulk, FaInstagram, FaLinkedin } from "react-icons/fa";
 import "./styles.css";
+import { Icon } from "@iconify/react";
 
 const Info = () => {
   return (
@@ -7,18 +7,18 @@ const Info = () => {
       <div className="info-component-container">
         <div className="item-container">
           <div className="circle-container">
-            <FaSmile size="30" color="#00DF5E" />
+            <Icon icon="akar-icons:github-fill" fontSize="30" color="#00DF5E" />
           </div>
           <div className="item-content">
-            <p className="item-title">Meu Nome</p>
-            <p className="item-subtitle">Filipe de Deus</p>
+            <p className="item-title">Github</p>
+            <p className="item-subtitle">/dedeus6</p>
           </div>
         </div>
       </div>
       <div className="info-component-container">
         <div className="item-container">
           <div className="circle-container">
-            <FaMailBulk size="30" color="#00DF5E" />
+            <Icon icon="entypo:email" fontSize="30" color="#00DF5E" />
           </div>
           <div className="item-content">
             <p className="item-title">Email</p>
@@ -29,7 +29,7 @@ const Info = () => {
       <div className="info-component-container">
         <div className="item-container">
           <div className="circle-container">
-            <FaInstagram size="30" color="#00DF5E" />
+            <Icon icon="akar-icons:instagram-fill" fontSize="30" color="#00DF5E" />
           </div>
           <div className="item-content">
             <p className="item-title">Instagram</p>
@@ -40,7 +40,7 @@ const Info = () => {
       <div className="info-component-container">
         <div className="item-container">
           <div className="circle-container">
-            <FaLinkedin size="30" color="#00DF5E" />
+            <Icon icon="akar-icons:linkedin-fill" fontSize="30" color="#00DF5E" />
           </div>
           <div className="item-content">
             <p className="item-title">LinkedIn</p>
