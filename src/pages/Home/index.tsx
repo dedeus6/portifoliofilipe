@@ -36,7 +36,7 @@ const Home = () => {
             <p>Estudando Análise e Desenvolvimento de Sistemas.
               Desenvolvedor full stack apaixonado por tecnologia e desenvolvimento de aplicativos, amante de desafios.
               Programação por profissão e hobby.
-              Cerca de 2 anos de atuação na área de desenvolvimento.
+              Cerca de 2 anos de atuação na área de desenvolvimento full stack.
             </p>
             <p>Você pode clicar <a href="https://www.linkedin.com/in/dedeus6/" target="_blank" rel="noreferrer">aqui</a> para ver o currículo ou em entrar em contato.</p>
           </div>
