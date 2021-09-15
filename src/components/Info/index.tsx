@@ -29,11 +29,11 @@ const Info = () => {
       <div className="info-component-container">
         <div className="item-container">
           <div className="circle-container">
-            <Icon icon="akar-icons:instagram-fill" fontSize="30" color="#00DF5E" />
+            <Icon icon="akar-icons:whatsapp-fill" fontSize="30" color="#00DF5E" />
           </div>
           <div className="item-content">
-            <p className="item-title">Instagram</p>
-            <p className="item-subtitle">@dedeus6</p>
+            <p className="item-title">WhatsApp</p>
+            <p className="item-subtitle">+55 (61) 98355-9013</p>
           </div>
         </div>
       </div>
