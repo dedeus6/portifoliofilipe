@@ -1,4 +1,3 @@
-import Header from "../../components/Header";
 import "./styles.css";
 import { Icon } from "@iconify/react";
 
@@ -145,7 +144,6 @@ const MySkills = () => {
 
   return (
     <>
-      <Header />
       <div className="top-sumary-container" onClick={handleTopPage}>
         <Icon className="top-icon" icon="akar-icons:circle-chevron-up-fill" fontSize="70" color="#00DF5E" />
       </div>

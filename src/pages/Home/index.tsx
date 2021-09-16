@@ -1,4 +1,3 @@
-import Header from "../../components/Header";
 import './styles.css';
 import Logo from '../../assets/img/home-img.svg';
 import Info from "../../components/Info";
@@ -7,7 +6,6 @@ import Footer from "../../components/Footer";
 const Home = () => {
   return (
     <>
-      <Header />
       <div className="home-container mt-5">
         <div className="top-container">
           <div className="info-container">
