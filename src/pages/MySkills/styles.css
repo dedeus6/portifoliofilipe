@@ -8,6 +8,29 @@
     flex-wrap: wrap;
 }
 
+.top-sumary-container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    z-index: 1000;
+    left: 90%;
+    top: 90%;
+}
+
+.top-sumary-container:hover {
+    top: 89%;
+}
+
+.top-icon:hover {
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
 .skill {
     display: flex;
     margin: 1rem 1rem 1rem 1rem;
