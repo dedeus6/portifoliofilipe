@@ -23,6 +23,7 @@
 
 .top-sumary-container:hover {
     top: 89%;
+    cursor: pointer;
 }
 
 .top-icon:hover {
