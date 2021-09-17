@@ -51,6 +51,10 @@
     font-weight: bold;
 }
 
+.item-title:hover {
+    color: var(--color-white-secundary);
+}
+
 .item-subtitle {
     color: #828282;
     font-size: 16px;
