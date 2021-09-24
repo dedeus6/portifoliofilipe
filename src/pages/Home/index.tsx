@@ -12,7 +12,7 @@ const Home = () => {
               <p className="white-title info-title">Olá, eu sou o <br/>Filipe de Deus :)</p>
               <p className="info-subtitle">Desenvolvedor Full Stack</p>
               <div className="buttons-container">
-                <a href="../../assets/cvfilipededeus.pdf" target="_blank" download>
+                <a href="https://drive.google.com/file/d/1Suxw9mxamSbitW-qaJr8-g_GBK4izEms/view?usp=sharing" target="_blank" rel="noreferrer">
                   <div className="btn-cv-container btn-container">
                     <p className="btn-cv btn-content">Download CV</p>
                   </div>
@@ -36,7 +36,6 @@ const Home = () => {
               Programação por profissão e hobby.
               Cerca de 2 anos de atuação na área de desenvolvimento full stack.
             </p>
-            <p>Você pode clicar <a href="https://www.linkedin.com/in/dedeus6/" target="_blank" rel="noreferrer">aqui</a> para ver o currículo ou em entrar em contato.</p>
           </div>
         </div>
       </div>
