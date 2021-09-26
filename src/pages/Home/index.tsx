@@ -6,7 +6,7 @@ import Footer from "../../components/Footer";
 const Home = () => {
   return (
     <>
-      <div className="home-container mt-5">
+      <div className="home-container">
         <div className="top-container">
           <div className="info-container">
               <p className="white-title info-title">Olá, eu sou o <br/>Filipe de Deus :)</p>
@@ -38,8 +38,8 @@ const Home = () => {
             </p>
           </div>
         </div>
-      </div>
       <Info />
+      </div>
       <Footer />
     </>
   );

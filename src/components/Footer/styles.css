@@ -1,9 +1,9 @@
 .footer-container {
-    position: absolute;
     bottom: 0;
     display: flex;
     flex: 1;
     font-size: 14px;
+    margin-top: 5rem;
 }
 
 .name {
