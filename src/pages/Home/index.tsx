@@ -9,7 +9,7 @@ const Home = () => {
       <div className="home-container">
         <div className="top-container">
           <div className="info-container">
-              <p className="white-title info-title">Olá, eu sou o <br/>Filipe de Deus :)</p>
+              <p className="white-title info-title">Olá, eu sou o <br/>Filipe de Deus</p>
               <p className="info-subtitle">Desenvolvedor Full Stack</p>
               <div className="buttons-container">
                 <a href="https://drive.google.com/file/d/1Suxw9mxamSbitW-qaJr8-g_GBK4izEms/view?usp=sharing" target="_blank" rel="noreferrer">
