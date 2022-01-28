@@ -1,6 +1,7 @@
 import "./styles.css";
 import { Icon } from "@iconify/react";
 import { mockTechs } from "mocks/techs.mock";
+import Skill from "components/Skill";
 
 const MySkills = () => {
 
@@ -19,89 +20,49 @@ const MySkills = () => {
       <p className="white-title title" id="linguagens">Linguagens</p>
       <div className="myskills-container"> 
         {mockTechs.linguagens.map((item, idx) => (
-          <div className="skill" key={idx}>
-            <div>
-              <Icon icon={item.icon} color="#00DF5E" fontSize="90" />
-            </div>
-            <p className="white-title description">{item.name}</p>
-          </div>
+          <Skill key={idx} name={item.name} icon={item.icon}></Skill>
         ))}
       </div>
       <p className="white-title title" id="frontend">Frontend</p>
       <div className="myskills-container">
         {mockTechs.frontend.map((item, idx) => (
-          <div className="skill" key={idx}>
-            <div>
-              <Icon icon={item.icon} color="#00DF5E" fontSize="90" />
-            </div>
-            <p className="white-title description">{item.name}</p>
-          </div>
+          <Skill key={idx} name={item.name} icon={item.icon}></Skill>
         ))}
       </div>
       <p className="white-title title" id="backend">Backend</p>
       <div className="myskills-container">
         {mockTechs.backend.map((item, idx) => (
-          <div className="skill" key={idx}>
-            <div>
-              <Icon icon={item.icon} color="#00DF5E" fontSize="90" />
-            </div>
-            <p className="white-title description">{item.name}</p>
-          </div>
+          <Skill key={idx} name={item.name} icon={item.icon}></Skill>
         ))}
       </div>
       <p className="white-title title" id="cicd">CI/CD | Containers</p>
       <div className="myskills-container">
         {mockTechs.cicd.map((item, idx) => (
-          <div className="skill" key={idx}>
-            <div>
-              <Icon icon={item.icon} color="#00DF5E" fontSize="90" />
-            </div>
-            <p className="white-title description">{item.name}</p>
-          </div>
+          <Skill key={idx} name={item.name} icon={item.icon}></Skill>
         ))}
       </div>
       <p className="white-title title" id="pacotes">Gerenciador de pacotes</p>
       <div className="myskills-container">
         {mockTechs.pacotes.map((item, idx) => (
-          <div className="skill" key={idx}>
-            <div>
-              <Icon icon={item.icon} color="#00DF5E" fontSize="90" />
-            </div>
-            <p className="white-title description">{item.name}</p>
-          </div>
+          <Skill key={idx} name={item.name} icon={item.icon}></Skill>
         ))}
       </div>
       <p className="white-title title" id="db">Database</p>
       <div className="myskills-container">
         {mockTechs.database.map((item, idx) => (
-          <div className="skill" key={idx}>
-            <div>
-              <Icon icon={item.icon} color="#00DF5E" fontSize="90" />
-            </div>
-            <p className="white-title description">{item.name}</p>
-          </div>
+          <Skill key={idx} name={item.name} icon={item.icon}></Skill>
         ))}
       </div>
       <p className="white-title title" id="versionamento">Versionamento</p>
       <div className="myskills-container">
         {mockTechs.versionamento.map((item, idx) => (
-          <div className="skill" key={idx}>
-            <div>
-              <Icon icon={item.icon} color="#00DF5E" fontSize="90" />
-            </div>
-            <p className="white-title description">{item.name}</p>
-          </div>
+          <Skill key={idx} name={item.name} icon={item.icon}></Skill>
         ))}
       </div>
       <p className="white-title title" id="testes">Testes</p>
       <div className="myskills-container">
         {mockTechs.testes.map((item, idx) => (
-          <div className="skill" key={idx}>
-            <div>
-              <Icon icon={item.icon} color="#00DF5E" fontSize="90" />
-            </div>
-            <p className="white-title description">{item.name}</p>
-          </div>
+          <Skill key={idx} name={item.name} icon={item.icon}></Skill>
         ))}
       </div>
     </>
