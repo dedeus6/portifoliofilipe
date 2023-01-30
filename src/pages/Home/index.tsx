@@ -12,7 +12,7 @@ const Home = () => {
               <p className="white-title info-title">Olá, eu sou o <br/>Filipe de Deus</p>
               <p className="info-subtitle">Desenvolvedor Full Stack</p>
               <div className="buttons-container">
-                <a href="https://drive.google.com/file/d/1Suxw9mxamSbitW-qaJr8-g_GBK4izEms/view?usp=sharing" target="_blank" rel="noreferrer">
+                <a href="https://drive.google.com/file/d/18gp5xYJ709lzsMSM6uI8lre6wGmXa1XS/view?usp=sharing" target="_blank" rel="noreferrer">
                   <div className="btn-cv-container btn-container">
                     <p className="btn-cv btn-content">Download CV</p>
                   </div>
